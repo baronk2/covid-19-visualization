@@ -11,6 +11,9 @@
 # Example code in package build process
 *-Ex.R
 
+# File meta data on a Mac
+.DS_Store
+
 # Output files from R CMD build
 /*.tar.gz
 
@@ -23,6 +26,9 @@
 # produced vignettes
 vignettes/*.html
 vignettes/*.pdf
+
+# other
+instructions.html
 
 # OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
 .httr-oauth
